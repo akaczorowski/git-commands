@@ -1,0 +1,6 @@
+Dodaj nowy remote:
+git remote add <NEW_remote_name> git@bitbucket.org:team/project.git
+
+git remote set-url custom_remote git@bitbucket.org:team/project_backup.git
+
+git remote rm origin 

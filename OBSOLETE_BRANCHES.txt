@@ -1,0 +1,23 @@
+git branch --merged | grep -E -v "\*|master|develop" | xargs -n 1 git push --delete origin
+git branch --merged | grep -E -v "\*|master|develop" | xargs -n 1 git branch -d
+	####OLD git branch --merged | grep -v "\*" | xargs -n 1 git push --delete origin
+			git branch --merged | grep -v "\*" | xargs -n 1 git branch -d
+
+You can delete a merged local branch with:
+
+git branch -d branchname
+If it's not merged, use:
+
+git branch -D branchname
+To delete it from the remote in old versions of Git use:
+
+git push origin :branchname
+In more recent versions of Git use:
+
+git push --delete origin branchname
+Once you delete the branch from the remote, you can prune to get rid of remote tracking branches with:
+
+git remote prune origin
+or prune individual remote tracking branches, as the other answer suggests, with:
+
+git branch -dr branchname

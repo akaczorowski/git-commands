@@ -1,0 +1,3 @@
+Wypchnij kod i tagi:
+git push -u <NEW_remote_name> --all
+git push -u <NEW_remote_name> --tags
