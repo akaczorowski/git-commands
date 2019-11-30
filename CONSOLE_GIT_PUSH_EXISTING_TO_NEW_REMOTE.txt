@@ -1,0 +1,7 @@
+
+Dodaj nowy remote:
+git remote add <NEW_remote_name> git@bitbucket.org:lpp_allstars/storevision_android_barcodescanner.git
+
+Wypchnij kod i tagi:
+git push -u <NEW_remote_name> --all
+git push -u <NEW_remote_name> --tags

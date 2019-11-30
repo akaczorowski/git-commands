@@ -1,0 +1,5 @@
+git remote add origin git@bitbucket.org:lpp_allstars/barcodecamerascanner.git
+
+git remote set-url storevison_remote git@bitbucket.org:lpp_allstars/barcodecamerascanner.git
+
+git remote rm origin 

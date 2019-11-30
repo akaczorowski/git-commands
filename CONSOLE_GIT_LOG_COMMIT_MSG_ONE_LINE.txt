@@ -1,0 +1,4 @@
+git log --format=%B  (optional "-n 1" lists only first commit)
+
+with ref:
+git log --pretty=oneline --abbrev-commit

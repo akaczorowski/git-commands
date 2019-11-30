@@ -1,0 +1,3 @@
+git push --set-upstream origin best-79-xmlFieldsAddedForEntityHashCodeAndEquals
+
+http://localhost:8080/client-online/faces/repayment-status?sessionId=CC1FEF6A-A8AE-814B-9E09-2A4F9C4129F8
